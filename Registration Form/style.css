@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(221, 205, 205);
+    color:rgb(0, 0, 0);
+    padding:30px;
+}
+
+h1{
+    text-align: center;
+    text-decoration:underline;
+    margin-bottom:30px;
+}
+
+form{
+    font-weight: bold;
+}
+
+label{
+    display:inline-block;
+    width:150px;
+    margin-bottom:10px;
+}
+input[type="text"],
+input[type="date"] {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+}
