@@ -1,6 +1,6 @@
 document.getElementById("submit").addEventListener("click", function(event) {
     event.preventDefault(); // Prevent default form submission
-
+34
     var name = document.getElementById("Name").value;
     var dateofbirth = document.getElementById("Dateofbirth").value;
     var fathername = document.getElementById("FatherName").value;
