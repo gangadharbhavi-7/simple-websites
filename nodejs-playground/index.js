@@ -1,1 +1,2 @@
-console.log(__filename);
+const greet = require('./greet');
+greet('Alice');
